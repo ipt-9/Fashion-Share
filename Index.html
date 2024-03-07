@@ -1,19 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Hello header</title>
-    <p>Homepage</p>
-    <ul id="Nav_Bar">
-        <li><a href="Index.html">Home</a></li>
-        <li><a href="Pages/PostCreation/PostCreation.html">Post</a></li>
-        <li><a href="Pages/Discovery/Discovery.html">Discovery</a></li>
-        <li><a href="Pages/Bookmarks/Bookmarks.html">Bookmarked</a></li>
-        <li><a href="Pages/Likedhistory/Likedhistory.html">Liked History</a></li>
-        <li><a href="Pages/Settings/Settings.html">Settings</a></li>
-        <!-- <li><a href="Pages/Settings/Settings.html">Settings</a></li> -->
-    </ul>
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="/Styles/Global.css" />
+    <link rel="stylesheet" type="text/css" href="Index.css" />
 </head>
 <body>
-    <p>Post here</p>
+    <h1>Homepage</h1>
+    <div class="Top_Bar">
+        <div class="Searchbar">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search">Search</i></button>
+            </form>
+            <div class="dropdown">
+                <button type="button">Filter</button>
+
+            </div>
+            <image>Image</image>
+        </div>
+    </div>
+    <nav class="Nav_Bar">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Pages/PostCreation.html">Post</a></li>
+            <li><a href="Pages/Discovery.html">Discovery</a></li>
+            <li><a href="Pages/Bookmarks.html">Bookmarked</a></li>
+            <li><a href="Pages/Likedhistory.html">Liked History</a></li>
+            <li><a href="Pages/Settings.html">Settings</a></li>
+        </ul>
+    </nav>
+    <p>This is the Homepage, you can look at posts here</p>
 </body>
 </html>
