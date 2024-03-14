@@ -2,19 +2,35 @@
 <html lang="en">
 <head>
     <title>Hello header</title>
-    <link rel="stylesheet" type="text/css" href="/Styles/Global.css" />
-    <link rel="stylesheet" type="text/css" href="/Styles/PostCreation.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/Global.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/PostCreation.css" />
 </head>
 <body>
     <h1>Post Creation</h1>
-    <nav class="Nav_Bar">
+    <div class="top_bar">
+        <div class="searchbar">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search">Search</i></button>
+            </form>
+            <div class="dropdown">
+                <button type="button">Filter</button>
+
+            </div>
+            <image>Image</image>
+        </div>
+    </div>
+    <div class="logo_cont">
+        <img class="logo" src="Media/logo.png" alt="Fashion Share Logo"/>
+    </div>
+    <nav class="nav_Bar">
         <ul>
-            <li><a href="../Index.html">Home</a></li>
-            <li><a href="PostCreation.html">Post</a></li>
-            <li><a href="Discovery.html">Discovery</a></li>
-            <li><a href="Bookmarks.html">Bookmarked</a></li>
-            <li><a href="Likedhistory.html">Liked History</a></li>
-            <li><a href="Settings.html">Settings</a></li>
+            <li class="nav_li nav_home"><a class="nav_txt" href="Index.html">Home</a></li>
+            <li class="nav_li nav_post"><a class="nav_txt" href="Pages/PostCreation.html">Post</a></li>
+            <li class="nav_li nav_disc"><a class="nav_txt" href="Pages/Discovery.html">Discovery</a></li>
+            <li class="nav_li nav_book"><a class="nav_txt" href="Pages/Bookmarks.html">Bookmarked</a></li>
+            <li class="nav_li nav_like"><a class="nav_txt" href="Pages/Likedhistory.html">Liked History</a></li>
+            <li class="nav_li nav_sett"><a class="nav_txt" href="Pages/Settings.html">Settings</a></li>
         </ul>
     </nav>
     <p>Create Posts here</p>
