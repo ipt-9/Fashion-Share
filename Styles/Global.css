@@ -1,10 +1,11 @@
 /*Top Bar*/
 .top_bar{
     position: fixed;
-    margin-left: 300px;
+    z-index: 1;
+    margin-left: 250px;
     background-color: black;
     width: auto;
-    height: 114px;
+    height: 64px;
     left: 0;
     right: 0;
     top: 0;
@@ -20,11 +21,17 @@
 }
 .logo_cont{
     background-color: black;
-    width: 300px;
+    width: 250px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: solid rgb(212, 212, 212);
 }
 .logo{
-    width: 220px;
-    height: 173px;
+    display: block;
+    width: 185px;
+    height: 142px;
+    margin-left: auto;
+    margin-right: auto;
 }
 ul{
     list-style-type: none;
@@ -33,21 +40,25 @@ ul{
 }
 .nav_li {
     background-color: black;
-    width: 300px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .nav_txt{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     padding-left: 40px;
+}
+.nav_space{
+    padding-top: 74.5px;
+    padding-bottom: 74.5px;
 }
 
 /*Content*/
 .content{
     position: absolute;
-    margin-left: 300px;
-    margin-top: 114px;
+    margin-left: 250px;
+    margin-top: 64px;
 }
