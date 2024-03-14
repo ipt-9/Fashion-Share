@@ -1,3 +1,6 @@
+.nav_bar{
+    position: fixed;
+}
 .logo_cont{
     background-color: black;
     width: 300px;
@@ -6,7 +9,6 @@
     width: 220px;
     height: 173px;
 }
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -24,4 +26,9 @@ ul{
     color: white;
     text-decoration: none;
     padding-left: 40px;
+}
+
+.content_box{
+    position: absolute;
+    margin-left: 300px;
 }
