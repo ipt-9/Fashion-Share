@@ -4,11 +4,32 @@
     z-index: 1;
     margin-left: 250px;
     background-color: black;
+    border-left: solid rgb(212, 212, 212);
     width: auto;
     height: 64px;
     left: 0;
     right: 0;
     top: 0;
+}
+.title_box{
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(14, 14, 14);
+    height: 54px;
+    margin-left: 250px;
+    margin-top: 64px;
+    border-left: solid rgb(212, 212, 212);
+    border-top: solid rgb(212, 212, 212);
+    width: 1920px;
+    left: 0;
+    top: 0;
+}
+.title_box p{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 6px;
 }
 
 /*Nav Bar*/
@@ -38,7 +59,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-.nav_li {
+.nav_li li{
     background-color: black;
     width: 250px;
     padding-top: 20px;
@@ -51,9 +72,11 @@ ul{
     text-decoration: none;
     padding-left: 40px;
 }
-.nav_space{
-    padding-top: 74.5px;
-    padding-bottom: 74.5px;
+.nav_li li:hover{
+    background-color: white;
+}
+.nav_li li:hover a{
+    color: black;
 }
 
 /*Content*/
