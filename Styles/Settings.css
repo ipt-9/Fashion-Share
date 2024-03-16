@@ -1,0 +1,23 @@
+.sett_switch{
+    background-color: black;
+    height: 60px;
+    width: 800px;
+    margin-left: 250px;
+    left: 0;
+    top: 0;
+}
+.sett_switch a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sett_switch a:hover{
+    background-color: white;
+    color: black;
+}
+.acc{
+
+}
+.web{
+    
+}
