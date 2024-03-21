@@ -1,0 +1,14 @@
+.content{
+    width: 1050px;
+    height: 500px;
+}
+.acc-info{
+    background-color: rgb(14, 14, 14);
+    width: 1050px;
+    height: 500px;
+    margin-left: 25px;
+}
+h1, p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
