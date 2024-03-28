@@ -88,3 +88,11 @@ ul{
     margin-left: 250px;
     margin-top: 64px;
 }
+
+/*Responsiv*/
+@media screen and (max-width: 1300px) {
+    
+}
+@media screen and (max-width: 800px) {
+
+}
