@@ -15,12 +15,12 @@
     position: fixed;
     z-index: 1;
     background-color: rgb(14, 14, 14);
+    width: 1625.5px;
     height: 54px;
     margin-left: 250px;
     margin-top: 64px;
     border-left: solid rgb(212, 212, 212);
     border-top: solid rgb(212, 212, 212);
-    width: 1920px;
     left: 0;
     top: 0;
 }
@@ -78,10 +78,22 @@ ul{
 .nav_li li:hover a{
     color: black;
 }
+.nav_sett{
+    margin-top:362.5px;
+}
 
 /*Content*/
 .content{
     position: absolute;
     margin-left: 250px;
     margin-top: 64px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1300px) {
+    
+}
+@media screen and (max-width: 800px) {
+    
 }
