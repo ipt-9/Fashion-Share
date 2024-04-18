@@ -85,3 +85,91 @@ ul{
     margin-left: 250px;
     margin-top: 64px;
 }
+
+
+
+/*Overlay*/
+#overlay, #overlay2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+
+
+
+
+  #loginPopup {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 4%;
+    color: black;
+    text-align: center;
+  }
+
+  #signupPopup {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 4%;
+    color: black;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    margin: 10px 0;
+    padding: 5px;
+  }
+
+  .closebuttonlogin{
+    border: none;
+    background: none;
+    position:absolute;
+    left: 88%;
+    bottom: 91%;
+    color: red;
+    font-size: medium;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+  }
+
+  .closebuttonsignup{
+    border: none;
+    background: none;
+    position:absolute;
+    left: 88%;
+    bottom: 93%;
+    color: red;
+    font-size: medium;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    }
+
+  .buttonpopup{
+    border: none;
+    background-color: #A9C985;
+    font-size: 110%;
+  }
+
+  .popupbar{
+    margin: auto;
+    background-color: black;
+    padding: 10%;
+    color: white;
+    text-align: center;
+  }
