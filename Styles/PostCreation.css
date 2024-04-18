@@ -12,3 +12,10 @@ h1, p{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 1300px) {
+    .col-1{width: 60%;}
+}
+@media screen and (max-width: 800px) {
+    .col-1{width: 80%;}
+}

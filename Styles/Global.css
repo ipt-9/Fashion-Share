@@ -31,6 +31,10 @@
     font-size: 30px;
     margin: 6px;
 }
+.search{
+    width: 600px;
+    margin-left: 25%;
+}
 
 /*Nav Bar*/
 .nav_bar{
@@ -78,8 +82,9 @@ ul{
 .nav_li li:hover a{
     color: black;
 }
-.nav_sett{
-    margin-top:362.5px;
+.gap{
+    height: 100vh;
+    pointer-events: none;
 }
 
 /*Content*/
@@ -91,8 +96,9 @@ ul{
 
 /*Responsiv*/
 @media screen and (max-width: 1300px) {
-    
+    .search{width: 40%;}
+
 }
 @media screen and (max-width: 800px) {
-
+    .search{width: 40%;}
 }
