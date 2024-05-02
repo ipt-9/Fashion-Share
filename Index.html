@@ -26,13 +26,13 @@
                     <h2 class="popupbar">Log In</h2>
                 <button class="closebuttonlogin" onclick="off()">Close</button>
                 </div>
-                <form>
+                <form id="loginform">
                         <p>E-Mail</p>
                         <input type="text" placeholder="E-Mail">
                         <p>Password</p>
                         <input type="password" placeholder="Password">
                         <p></p>
-                        <button class="buttonpopup" onclick="login()">Log In</button>
+                        <button type="submit" class="buttonpopup">Log In</button>
                     </form>
                     <div>
                         <hr>
@@ -54,9 +54,9 @@
                 <p></p>
                 <form id="signupform">
                     <p class="text">E-Mail</p>
-                    <input type="email" placeholder="email" name="email" required>
+                    <input type="email" placeholder="email" name="E-mail" required>
                     <p class="text">Username</p>
-                    <input type="text" placeholder="name" name="name" required>
+                    <input type="text" placeholder="name" name="Name" required>
                     <p class="text">Password</p>
                     <input type="password" placeholder="Password" name="password" required>
                     <p>Repeat Password</p>
@@ -96,13 +96,16 @@
         <p>This is the Homepage, you can look at posts here</p>
         
 
-        <img src="../backend.fashion-share-bmsd21a.bbzwinf.ch/storage/postPictures/{js.}}" alt="Italian Trulli">
+        <img src="../backend.fashion-share-bmsd21a.bbzwinf.ch/storage/postPictures/{js.}" alt="Italian Trulli">
         <div id="apiData">
         </div>
-        <button onclick="fetchAndDisplayData()">Get</button>
-        <div id="dataContainer">
-            <!-- Hier werden die Daten angezeigt -->
-        </div>
+
+        <!-- <img src="../backend.fashion-share-bmsd21a.bbzwinf.ch/storage/postPictures/{js.}}" alt="Italian Trulli"> -->
+		
+        <button onclick="getrequest()">Get</button>
+ <div id="apiData">
+    <!-- Hier werden die API-Daten eingefügt -->
+  </div>
 
 
     </div>
