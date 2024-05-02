@@ -33,7 +33,9 @@
 }
 .search{
     width: 600px;
+    height: 30px;
     margin-left: 25%;
+    margin-top: 14px;
 }
 
 /*Nav Bar*/
