@@ -15,12 +15,12 @@
     position: fixed;
     z-index: 1;
     background-color: rgb(14, 14, 14);
+    width: 1625.5px;
     height: 54px;
     margin-left: 250px;
     margin-top: 64px;
     border-left: solid rgb(212, 212, 212);
     border-top: solid rgb(212, 212, 212);
-    width: 1920px;
     left: 0;
     top: 0;
 }
@@ -30,6 +30,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     margin: 6px;
+}
+.search{
+    width: 600px;
+    margin-left: 25%;
 }
 
 /*Nav Bar*/
@@ -78,6 +82,10 @@ ul{
 .nav_li li:hover a{
     color: black;
 }
+.gap{
+    height: 100vh;
+    pointer-events: none;
+}
 
 /*Content*/
 .content{
@@ -85,7 +93,6 @@ ul{
     margin-left: 250px;
     margin-top: 64px;
 }
-
 
 
 /*Overlay*/
@@ -173,3 +180,12 @@ ul{
     color: white;
     text-align: center;
   }
+
+/*Responsiv*/
+@media screen and (max-width: 1300px) {
+    .search{width: 40%;}
+
+}
+@media screen and (max-width: 800px) {
+    .search{width: 40%;}
+}

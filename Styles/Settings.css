@@ -1,23 +1,29 @@
 .sett_switch{
-    background-color: black;
     height: 60px;
-    width: 800px;
+    width: 1000px;
     margin-left: 250px;
+    overflow: hidden;
     left: 0;
+    right: 0;
     top: 0;
 }
-.sett_switch a{
+.acc, .web{
     color: white;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.sett_switch a:hover{
+.acc:hover, .web:hover{
     background-color: white;
     color: black;
 }
-.acc{
-
+/*
+.acc, .web{
+    margin-left: 250px;
 }
-.web{
-    
+*/
+.acc, .web{
+    background-color: black;
+    height: 60px;
+    width: 500px;
+    float: left;
 }

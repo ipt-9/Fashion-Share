@@ -52,4 +52,3 @@ function on() {
   var signupform = document.getElementById("signupform");
   
   signupform.addEventListener("submit", signUp);
-  

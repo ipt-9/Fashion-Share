@@ -1,0 +1,21 @@
+.content{
+    width: 1050px;
+    height: 500px;
+}
+.pic-can{
+    background-color: rgb(14, 14, 14);
+    width: 1500px;
+    height: 800px;
+    margin-left: 25px;
+}
+h1, p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+    .col-1{width: 60%;}
+}
+@media screen and (max-width: 800px) {
+    .col-1{width: 80%;}
+}
