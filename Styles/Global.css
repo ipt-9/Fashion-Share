@@ -250,13 +250,6 @@ li a{
     text-align: center;
   }
 
-  .cube{
-    background-color: lime;
-    margin-left: 350px;
-    width: 700px;
-    height: 700px;
-  }
-
 /*Responsiv*/
 @media screen and (max-width: 1300px) {
     .search{width: 40%;}
