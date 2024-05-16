@@ -37,21 +37,31 @@
     float: left;
 }
 .searchbox{
+    
+}
+.BtnCont{
+    width: 600px;
     margin-left: 25%;
 }
 .searchbtn, .filter, .loginbtn, .signupbtn{
-    position: relative;
+    position: absolute;
     float: left;
     margin-top: 20px;
 }
+.searchbtn{
+    margin-left: 5px;
+}
 .filter{
-    margin-left: 3px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 51px;
+    height: 41px;
 }
 .loginbtn{
-    margin-left: 250px;
+    margin-left: 25%;
 }
 .signupbtn{
-    margin-left: 3px;
+    margin-left: 20%;
 }
 
 /*Nav Bar*/
@@ -81,9 +91,15 @@ ul{
     margin: 0;
     padding: 0;
 }
-.nav_li li{
+li a{
+    display: block;
+    width: 250px;
+    height: 53px;
+}
+.nav_li li:not(.gap){
     background-color: black;
     width: 250px;
+    height: 33px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -93,6 +109,7 @@ ul{
     color: white;
     text-decoration: none;
     padding-left: 40px;
+    position: absolute;
 }
 .nav_li li:hover{
     background-color: white;
@@ -100,7 +117,45 @@ ul{
 .nav_li li:hover a{
     color: black;
 }
+.nav_li li:hover a{
+    padding-left: 85px;
+    transition: 0.5s, color 0.1s;
+}
+.nav_icon:not(.disc_i, .like_i){
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.nav_icon{
+    transition: 1s;
+    display: block;
+}
+.home_i, .book_i{
+    width: 55px;
+    height: 55px;
+}
+.post_i{
+    width: 46px;
+    height: 55px;
+}
+.disc_i{
+    width: 55px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: -4px;
+}
+.like_i{
+    width: 50px;
+    height: 48px;
+    margin-left: 15px;
+    margin-top: -6px;
+}
+.sett_i{
+    width: 55px;
+    height: 51px;
+}
 .gap{
+    background-color: black;
+    width: 250px;
     height: 100vh;
     pointer-events: none;
 }
@@ -209,5 +264,4 @@ ul{
 }
 @media screen and (max-width: 800px) {
     .search{width: 40%;}
-    .loginbtn{margin-left: 15%;}
 }

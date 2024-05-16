@@ -6,9 +6,66 @@
     <link rel="stylesheet" type="text/css" href="../Styles/Settings.css" />
 </head>
 <body>
-    <div class="sett_switch">
-        <div class="acc" href="#AccountSettings">Account Settings</div>
-        <div class="web" href="#WebSettings">Web Settings</div>
+    <div class="top_bar">
+        <div class="BtnCont">
+            <div class="searchbox"><input class="search" type="text" placeholder="Search.." name="search"></div>
+            <button class="searchbtn" type="submit"><i class="fa fa-search">Search</i></button>
+            <a><img class="filter" src="../Media/Filter Icon.png" alt="Filter Icon"/></a>
+            
+            <!-- Log IN -->
+            <div id="overlay">
+                <div id="loginPopup">
+                    <div>
+                        <h2 class="popupbar">Log In</h2>
+                        <button class="closebuttonlogin" onclick="off()">Close</button>
+                    </div>
+                    <form>
+                        <p>E-Mail</p>
+                        <input type="text" placeholder="E-Mail">
+                        <p>Password</p>
+                        <input type="password" placeholder="Password">
+                        <p></p>
+                        <button class="buttonpopup" onclick="login()">Log In</button>
+                    </form>
+                    <div>
+                        <hr>
+                        <p>Don't have an account?</p>
+                        <button class="buttonpopup" onclick="on2()">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <button class="loginbtn" onclick="on()">Log in</button>
+            
+            <!-- Sign Up -->
+            <div id="overlay2">
+                <div id="signupPopup">
+                    <div>
+                        <h2 class="popupbar">Sign Up</h2>
+                        <button class="closebuttonsignup" onclick="off()">Close</button>
+                    </div>
+                    <p></p>
+                    <form id="signupform">
+                        <p class="text">E-Mail</p>
+                        <input type="email" placeholder="E-mail" name="email" required>
+                        <p class="text">Username</p>
+                        <input type="text" placeholder="Name" name="name" required>
+                        <p class="text">Password</p>
+                        <input type="password" placeholder="Password" name="password" required>
+                        <p>Repeat Password</p>
+                        <p></p>
+                        <button type="submit" class="buttonpopup">Sign Up</button>
+                    </form>
+                    <div>
+                        <hr>
+                        <p>Have an account already?</p>
+                        <button class="buttonpopup" onclick="on()">Log In</button>
+                    </div>
+                </div>
+                
+            </div>
+            <button class = "signupbtn" onclick="on2()">Sign Up</button>
+        </div>
+        
     </div>
     <div class="nav_bar">
         <div class="logo_cont">
@@ -16,12 +73,30 @@
         </div>
         <nav>
             <ul class="nav_li">
-                <li class="nav_home"><a class="nav_txt" href="../index.html">Home</a></li>
-                <li class="nav_post"><a class="nav_txt" href="PostCreation.html">Post</a></li>
-                <li class="nav_disc"><a class="nav_txt" href="Discovery.html">Discovery</a></li>
-                <li class="nav_book"><a class="nav_txt" href="Bookmarks.html">Bookmarked</a></li>
-                <li class="nav_like"><a class="nav_txt" href="Likedhistory.html">Liked History</a></li>
-                <li class="nav_sett"><a class="nav_txt" href="Settings.html">Settings</a></li>
+                <li class="nav_home">
+                    <a class="nav_txt" href="../index.html">Home</a>
+                    <img class="nav_icon home_i" src="../Media/homeIcon.png" alt="Home icon"/>
+                </li>
+                <li class="nav_post">
+                    <a class="nav_txt" href="PostCreation.html">Post</a>
+                    <img class="nav_icon post_i" src="../Media/Icon.png" alt="Post creation icon"/>
+                </li>
+                <li class="nav_disc">
+                    <a class="nav_txt" href="Discovery.html">Discovery</a>
+                    <img class="nav_icon disc_i" src="../Media/BinocularB.png" alt="Discovery icon"/>
+                </li>
+                <li class="nav_book">
+                    <a class="nav_txt" href="Bookmarks.html">Bookmarked</a>
+                    <img class="nav_icon book_i" src="../Media/SaveIconB.png" alt="Bookmark icon"/>
+                </li>
+                <li class="nav_like">
+                    <a class="nav_txt" href="Likedhistory.html">Liked History</a>
+                    <img class="nav_icon like_i" src="../Media/HeartB.png" alt="Liked History icon"/>
+                </li>
+                <li class="nav_sett">
+                    <a class="nav_txt" href="Settings.html">Settings</a>
+                    <img class="nav_icon sett_i" src="../Media/CogB.png" alt="Settings icon"/>
+                </li>
                 <li class="gap"></li>
             </ul>
         </nav>
