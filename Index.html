@@ -3,9 +3,12 @@
 <head>
     <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="Styles/Global.css" />
-    <link rel="stylesheet" type="text/css" href="Index.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
+	
     <div class="top_bar">
         <div class="searchbar">
             <form action="/action_page.php">
@@ -15,7 +18,6 @@
         </div>
         <div class="dropdown">
             <button type="button">Filter</button>
-
 
             </div>
             <image>Image</image>
@@ -77,11 +79,11 @@
     </div>
     <div class="nav_bar">
         <div class="logo_cont">
-            <a href="Index.html"><img class="logo" src="Media/logo.png" alt="Fashion Share Logo"/></a>
+            <a href="index.html"><img class="logo" src="Media/logo.png" alt="Fashion Share Logo"/></a>
         </div>
         <nav>
             <ul class="nav_li">
-                <li class="nav_home"><a class="nav_txt" href="Index.html">Home</a></li>
+                <li class="nav_home"><a class="nav_txt" href="index.html">Home</a></li>
                 <li class="nav_post"><a class="nav_txt" href="Pages/PostCreation.html">Post</a></li>
                 <li class="nav_disc"><a class="nav_txt" href="Pages/Discovery.html">Discovery</a></li>
                 <li class="nav_book"><a class="nav_txt" href="Pages/Bookmarks.html">Bookmarked</a></li>
@@ -92,24 +94,23 @@
         </nav>
     </div>
     <div class="content">
-        <h1>Homepage</h1>
-        <p>This is the Homepage, you can look at posts here</p>
         
-
-        <img src="../backend.fashion-share-bmsd21a.bbzwinf.ch/storage/postPictures/{js.}" alt="Italian Trulli">
+        
+       
         <div id="apiData">
         </div>
 
         <!-- <img src="../backend.fashion-share-bmsd21a.bbzwinf.ch/storage/postPictures/{js.}}" alt="Italian Trulli"> -->
 		
-        <button onclick="getrequest()">Get</button>
+
+        
+        <!-- Post Anzeigen -->
  <div id="apiData">
     <!-- Hier werden die API-Daten eingefügt -->
   </div>
 
-
     </div>
-        <script type="text/javascript" src="./javascript/Login.js"></script>
-        <script type="text/javascript" src="./javascript/Post.js"></script>
+        <script type="text/javascript" src="./Script.js"></script>
+        
 </body>
 </html>

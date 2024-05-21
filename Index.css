@@ -1,0 +1,80 @@
+/* CSS für Post Anzeigen & Herz Animation */
+
+#UserName {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0%;
+  margin-left: 5px;
+  }
+  
+  #PostHeader{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  
+  }
+  #PostFooter{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1%;
+      margin-top: 2%;        
+      }
+  
+  #Picture {
+  width: 90%;
+  }
+  
+  #Likes {
+      color: white;
+      font-size: 23px;
+      margin:2.5%;
+  }
+  
+  #Post {
+  margin-top: 10%;
+  background-color: black;
+  width: 50%;
+  padding-left: 5%;
+  margin-left: 32%;
+  border-radius: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  }
+  
+  #ProfilePicture {
+      object-position: 0%;
+      width: 10%;
+      overflow: hidden; 
+      border-radius: 50%; 
+  }
+  
+
+  #HeartAnimation {
+      padding-top: 0;
+      background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/66955/web_heart_animation.png');
+        background-repeat: no-repeat;
+        background-size: 2900%;
+      background-position: left;
+        height: 50px;
+        width: 65px;
+      margin: 0 ;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .animate {
+      animation: heart-burst .8s steps(28) forwards;
+      
+    }
+    
+    @keyframes heart-burst {
+        0% {
+            background-position: left
+        }
+        100% {
+            background-position: right
+        }
+    }
+
+ 
