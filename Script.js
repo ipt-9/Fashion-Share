@@ -113,11 +113,6 @@ function login(e) {
 }
 
 var loginform = document.getElementById("loginform");
-
-loginform.addEventListener("submit", login);
-
-
-
   
   function signUp(e) {
     e.preventDefault();
